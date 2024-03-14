@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Links</title>
+    <style>
+        /* Simple CSS for basic styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1 {
+            text-align: center;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            grid-gap: 20px;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+        }
+        .menu {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to My Image Links Page</h1>
+
+    <section id="home">
+        <h2>Home</h2>
+        <p>Welcome to our website! Check out our technology-related image below:</p>
+        <a href="#technology"><img src="technology_image.jpg" alt="Technology Image"></a>
+    </section>
+
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <div class="gallery">
+            <a href="#nature"><img src="nature_image1.jpg" alt="Nature Image 1"></a>
+            <a href="#nature"><img src="nature_image2.jpg" alt="Nature Image 2"></a>
+            <a href="#nature"><img src="nature_image3.jpg" alt="Nature Image 3"></a>
+        </div>
+    </section>
+
+    <section id="menu">
+        <h2>Menu</h2>
+        <ul class="menu">
+            <li><a href="#food1"><img src="food1_image.jpg" alt="Food Item 1"></a> Food Item 1</li>
+            <li><a href="#food2"><img src="food2_image.jpg" alt="Food Item 2"></a> Food Item 2</li>
+            <li><a href="#food3"><img src="food3_image.jpg" alt="Food Item 3"></a> Food Item 3</li>
+        </ul>
+    </section>
+</body>
+</html>
